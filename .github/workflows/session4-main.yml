@@ -22,4 +22,4 @@ jobs:
       - name: Installaiton surge
         run: npm Install -g surge
       - name: Run surge / deploying on surge
-        run: surge ./build session4-haroon.surge.sh --token ${{secreats.SESSION4_TOKEN}}
+        run: surge ./build session4-haroon.surge.sh --token ${{secrets.SESSION4_TOKEN}}
