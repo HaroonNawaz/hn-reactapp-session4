@@ -20,6 +20,6 @@ jobs:
       - name: Creating build
         run: yarn build
       - name: Installaiton surge
-        run: npm Install -g surge
+        run: npm install -g surge
       - name: Run surge / deploying on surge
         run: surge ./build session4-haroon.surge.sh --token ${{secrets.SURGE_SESSION4}}
