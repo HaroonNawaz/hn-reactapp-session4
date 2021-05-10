@@ -3,7 +3,7 @@ html, body, #root, .room{
   margin: 0%;
 }
 .lit {
-  background-color: orange; 
+  background-color: blue;
   color: green;
 }
 .dark {
