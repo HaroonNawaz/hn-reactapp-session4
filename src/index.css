@@ -4,7 +4,7 @@ html, body, #root, .room{
 }
 .lit {
   background-color: orange; 
-  color: black;
+  color: green;
 }
 .dark {
   background-color: black;
